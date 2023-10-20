@@ -1,0 +1,45 @@
+{
+  "name": "material-next",
+  "version": "5.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@emotion/cache": "latest",
+    "@emotion/react": "latest",
+    "@emotion/server": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "latest",
+    "@mui/material": "latest",
+    "@mui/system": "^5.13.5",
+    "@mui/x-data-grid": "^6.9.0",
+    "@mui/x-date-pickers": "^6.9.0",
+    "@stripe/react-stripe-js": "^2.1.1",
+    "@stripe/stripe-js": "^1.54.1",
+    "critters": "^0.0.20",
+    "dayjs": "^1.11.8",
+    "draft-js": "^0.11.7",
+    "firebase": "^9.22.2",
+    "hamburger-react": "^2.5.0",
+    "moment": "^2.29.4",
+    "next": "latest",
+    "prop-types": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-draft-wysiwyg": "^1.15.0",
+    "react-firebase-hooks": "^5.1.1",
+    "react-icons": "^4.9.0",
+    "react-modal": "^3.16.1",
+    "react-player": "^2.12.0",
+    "sharp": "^0.32.1"
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "eslint-config-next": "latest"
+  }
+}
